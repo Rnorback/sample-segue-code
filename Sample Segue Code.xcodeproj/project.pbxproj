@@ -14,6 +14,7 @@
 		937035511BAA8AC10064C28B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937035501BAA8AC10064C28B /* Images.xcassets */; };
 		937035541BAA8AC10064C28B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937035521BAA8AC10064C28B /* LaunchScreen.xib */; };
 		937035601BAA8AC20064C28B /* Sample_Segue_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9370355F1BAA8AC20064C28B /* Sample_Segue_CodeTests.m */; };
+		9370356B1BAA8AE20064C28B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9370356A1BAA8AE20064C28B /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		937035591BAA8AC20064C28B /* Sample Segue CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample Segue CodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9370355E1BAA8AC20064C28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9370355F1BAA8AC20064C28B /* Sample_Segue_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample_Segue_CodeTests.m; sourceTree = "<group>"; };
+		937035691BAA8AE20064C28B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9370356A1BAA8AE20064C28B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				937035481BAA8AC10064C28B /* AppDelegate.m */,
 				9370354A1BAA8AC10064C28B /* ViewController.h */,
 				9370354B1BAA8AC10064C28B /* ViewController.m */,
+				937035691BAA8AE20064C28B /* TableViewController.h */,
+				9370356A1BAA8AE20064C28B /* TableViewController.m */,
 				9370354D1BAA8AC10064C28B /* Main.storyboard */,
 				937035501BAA8AC10064C28B /* Images.xcassets */,
 				937035521BAA8AC10064C28B /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				9370354C1BAA8AC10064C28B /* ViewController.m in Sources */,
 				937035491BAA8AC10064C28B /* AppDelegate.m in Sources */,
 				937035461BAA8AC10064C28B /* main.m in Sources */,
+				9370356B1BAA8AE20064C28B /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TableViewController.h"
 
 @interface ViewController ()
 
@@ -17,11 +18,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)buttonTapped:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"tableViewSegue" sender:self];
+//    TableViewController *tableController = [[TableViewController alloc] init];
+//    tableController.firstName = @"Alice";
+//    [self.navigationController pushViewController:tableController animated:YES];
 }
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"tableViewSegue"]) {
+        TableViewController *tableVC = [segue destinationViewController];
+        tableVC.firstName = @"Alice";
+    }
+}
+
 
 @end
